@@ -12,5 +12,9 @@ app.use("/api/account", require("./ROUTES/account.routes"));
 
 app.use("/api/transaction", require("./ROUTES/transaction.routes"));
 
+app.get("/", (req, res) => {
+    res.send("<h1>Backend is running</h1>")
+})
+
 
 module.exports = app;
