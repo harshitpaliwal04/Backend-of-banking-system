@@ -40,7 +40,7 @@ Backend/
 
 \`\`\`bash
 # Clone the repo
-git clone https://github.com/yourusername/banking-system.git
+git clone https://github.com/harshitpaliwal04/Backend-of-banking-system.git
 
 # Install dependencies
 cd Backend
